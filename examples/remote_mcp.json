@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "open-jyotish": {
-      "url": "https://waka-open-jyotish.hf.space/mcp"
+      "url": "https://<your-space>.hf.space/mcp"
     }
   }
 }

@@ -1,6 +1,6 @@
 # Open Jyotish MCP
 
-吠陀占星（Jyotish）排盘 MCP 服务器。计算内核复用 [OpenJyotish](https://github.com/waka/open-jyotish)（Swiss Ephemeris / `pyswisseph`），无 GUI 依赖，可跑在容器里。
+吠陀占星（Jyotish）排盘 MCP 服务器。计算内核复用 OpenJyotish（Swiss Ephemeris / `pyswisseph`），无 GUI 依赖，可跑在容器里。
 
 任何 MCP 客户端（Claude Desktop / Claude Code / Cursor / Codex / OpenCode / DeepSeek Harness…）接上后即可让 LLM 直接排盘。
 

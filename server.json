@@ -1,10 +1,10 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.waka/open-jyotish",
+  "name": "io.github.ll011702pf/open-joytish-mcp",
   "title": "Open Jyotish",
   "description": "Vedic astrology (Jyotish) charting over MCP: sidereal positions with 47 ayanamsha modes, 20 vargas (D1-D60), Vimshottari dasha, panchanga, ashtakavarga, yogas and doshas, computed with Swiss Ephemeris. Includes probe_ayanamsha to align configurations against JHora or other software baselines.",
   "repository": {
-    "url": "https://github.com/waka/open-jyotish-mcp",
+    "url": "https://github.com/ll011702pf/open-joytish-mcp",
     "source": "github"
   },
   "version": "0.1.0",
@@ -16,12 +16,6 @@
       "transport": {
         "type": "stdio"
       }
-    }
-  ],
-  "remotes": [
-    {
-      "type": "streamable-http",
-      "url": "https://waka-open-jyotish.hf.space/mcp"
     }
   ]
 }
