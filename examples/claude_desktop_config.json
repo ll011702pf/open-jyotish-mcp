@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "open-jyotish": {
+      "command": "open-jyotish-mcp",
+      "args": []
+    }
+  }
+}

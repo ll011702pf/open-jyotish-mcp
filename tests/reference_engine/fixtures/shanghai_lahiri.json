@@ -1,0 +1,131 @@
+{
+  "sample_id": "shanghai_lahiri",
+  "source": "JHora",
+  "source_version": "",
+  "notes": "Auto-filled from local jhora python package. Review before treating as canonical.",
+  "birth_data": {
+    "title": "Shanghai Baseline",
+    "subject_name": "Sample A",
+    "birth_date": "1990-01-01",
+    "birth_time": "12:00:00",
+    "timezone": "Asia/Shanghai",
+    "dst_mode": "auto",
+    "latitude": 31.2304,
+    "longitude": 121.4737,
+    "country": "China",
+    "city": "Shanghai",
+    "note": null
+  },
+  "profile": {
+    "ayanamsha_id": "lahiri",
+    "house_system": "whole_sign",
+    "node_mode": "true",
+    "enabled_vargas": [
+      "D1",
+      "D9",
+      "D10"
+    ]
+  },
+  "tolerances": {
+    "ayanamsha_value": 0.0005,
+    "lagna_longitude": 0.01,
+    "degree_in_sign": 0.01,
+    "varga_lagna_longitude": 0.02,
+    "varga_moon_degree_in_sign": 0.02
+  },
+  "expected": {
+    "ayanamsha_value": 23.717426,
+    "lagna_longitude": 353.895315,
+    "planet_positions": {
+      "Sun": {
+        "sign": "Sagittarius",
+        "degree_in_sign": 16.759515,
+        "nakshatra": "Purva Ashadha",
+        "pada": 2,
+        "house": 10,
+        "dignity": null
+      },
+      "Moon": {
+        "sign": "Aquarius",
+        "degree_in_sign": 5.068162,
+        "nakshatra": "Dhanishta",
+        "pada": 4,
+        "house": 12,
+        "dignity": null
+      },
+      "Mars": {
+        "sign": "Scorpio",
+        "degree_in_sign": 16.054215,
+        "nakshatra": "Anuradha",
+        "pada": 4,
+        "house": 9,
+        "dignity": null
+      },
+      "Mercury": {
+        "sign": "Capricorn",
+        "degree_in_sign": 2.03829,
+        "nakshatra": "Uttara Ashadha",
+        "pada": 2,
+        "house": 11,
+        "dignity": null
+      },
+      "Jupiter": {
+        "sign": "Gemini",
+        "degree_in_sign": 11.469635,
+        "nakshatra": "Ardra",
+        "pada": 2,
+        "house": 4,
+        "dignity": null
+      },
+      "Venus": {
+        "sign": "Capricorn",
+        "degree_in_sign": 12.542018,
+        "nakshatra": "Shravana",
+        "pada": 1,
+        "house": 11,
+        "dignity": null
+      },
+      "Saturn": {
+        "sign": "Sagittarius",
+        "degree_in_sign": 21.904892,
+        "nakshatra": "Purva Ashadha",
+        "pada": 3,
+        "house": 10,
+        "dignity": null
+      },
+      "Rahu": {
+        "sign": "Capricorn",
+        "degree_in_sign": 23.140951,
+        "nakshatra": "Shravana",
+        "pada": 4,
+        "house": 11,
+        "dignity": null
+      },
+      "Ketu": {
+        "sign": "Cancer",
+        "degree_in_sign": 23.140951,
+        "nakshatra": "Ashlesha",
+        "pada": 2,
+        "house": 5,
+        "dignity": null
+      }
+    },
+    "vargas": {
+      "D1": {
+        "lagna_longitude": 353.895315,
+        "moon_sign": "Aquarius",
+        "moon_degree_in_sign": 5.068162
+      },
+      "D9": {
+        "lagna_longitude": 305.057835,
+        "moon_sign": "Scorpio",
+        "moon_degree_in_sign": 15.613462
+      },
+      "D10": {
+        "lagna_longitude": 88.95315,
+        "moon_sign": "Pisces",
+        "moon_degree_in_sign": 20.681624
+      }
+    }
+  }
+}

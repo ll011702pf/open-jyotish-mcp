@@ -1,0 +1,1 @@
+"""Swiss Ephemeris adapter layer."""

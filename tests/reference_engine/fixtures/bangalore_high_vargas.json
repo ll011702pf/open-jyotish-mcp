@@ -1,0 +1,156 @@
+{
+  "sample_id": "bangalore_high_vargas",
+  "source": "JHora",
+  "source_version": "",
+  "notes": "Auto-filled from local jhora python package. Review before treating as canonical.",
+  "verification": {
+    "mode": "automated",
+    "reason": null
+  },
+  "birth_data": {
+    "title": "Bangalore High Vargas Baseline",
+    "subject_name": "Sample K",
+    "birth_date": "1993-07-21",
+    "birth_time": "09:10:00",
+    "timezone": "Asia/Kolkata",
+    "dst_mode": "auto",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "country": "India",
+    "city": "Bangalore",
+    "note": null
+  },
+  "profile": {
+    "ayanamsha_id": "lahiri",
+    "custom_ayanamsha_t0_jd": null,
+    "custom_ayanamsha_value": null,
+    "custom_ayanamsha_is_ut": false,
+    "house_system": "whole_sign",
+    "node_mode": "true",
+    "enabled_vargas": [
+      "D1",
+      "D27",
+      "D30",
+      "D40",
+      "D45",
+      "D60"
+    ]
+  },
+  "tolerances": {
+    "ayanamsha_value": 0.0005,
+    "lagna_longitude": 0.01,
+    "degree_in_sign": 0.01,
+    "varga_lagna_longitude": 0.15,
+    "varga_moon_degree_in_sign": 0.02
+  },
+  "expected": {
+    "ayanamsha_value": 23.767023,
+    "lagna_longitude": 137.985736,
+    "planet_positions": {
+      "Sun": {
+        "sign": "Cancer",
+        "degree_in_sign": 4.634805,
+        "nakshatra": "Pushya",
+        "pada": 1,
+        "house": 12,
+        "dignity": null
+      },
+      "Moon": {
+        "sign": "Cancer",
+        "degree_in_sign": 27.252187,
+        "nakshatra": "Ashlesha",
+        "pada": 4,
+        "house": 12,
+        "dignity": null
+      },
+      "Mars": {
+        "sign": "Leo",
+        "degree_in_sign": 22.705808,
+        "nakshatra": "Purva Phalguni",
+        "pada": 3,
+        "house": 1,
+        "dignity": null
+      },
+      "Mercury": {
+        "sign": "Gemini",
+        "degree_in_sign": 25.373225,
+        "nakshatra": "Punarvasu",
+        "pada": 2,
+        "house": 11,
+        "dignity": null
+      },
+      "Jupiter": {
+        "sign": "Virgo",
+        "degree_in_sign": 14.465933,
+        "nakshatra": "Hasta",
+        "pada": 2,
+        "house": 2,
+        "dignity": null
+      },
+      "Venus": {
+        "sign": "Taurus",
+        "degree_in_sign": 22.886731,
+        "nakshatra": "Rohini",
+        "pada": 4,
+        "house": 10,
+        "dignity": null
+      },
+      "Saturn": {
+        "sign": "Aquarius",
+        "degree_in_sign": 5.263352,
+        "nakshatra": "Dhanishta",
+        "pada": 4,
+        "house": 7,
+        "dignity": null
+      },
+      "Rahu": {
+        "sign": "Scorpio",
+        "degree_in_sign": 17.434455,
+        "nakshatra": "Jyeshtha",
+        "pada": 1,
+        "house": 4,
+        "dignity": null
+      },
+      "Ketu": {
+        "sign": "Taurus",
+        "degree_in_sign": 17.434455,
+        "nakshatra": "Rohini",
+        "pada": 3,
+        "house": 10,
+        "dignity": null
+      }
+    },
+    "vargas": {
+      "D1": {
+        "lagna_longitude": 137.985736,
+        "moon_sign": "Cancer",
+        "moon_degree_in_sign": 27.252187
+      },
+      "D27": {
+        "lagna_longitude": 125.614883,
+        "moon_sign": "Capricorn",
+        "moon_degree_in_sign": 15.80905
+      },
+      "D30": {
+        "lagna_longitude": 269.572093,
+        "moon_sign": "Scorpio",
+        "moon_degree_in_sign": 7.565611
+      },
+      "D40": {
+        "lagna_longitude": 359.429457,
+        "moon_sign": "Libra",
+        "moon_degree_in_sign": 10.087482
+      },
+      "D45": {
+        "lagna_longitude": 209.358139,
+        "moon_sign": "Leo",
+        "moon_degree_in_sign": 26.348417
+      },
+      "D60": {
+        "lagna_longitude": 119.144185,
+        "moon_sign": "Capricorn",
+        "moon_degree_in_sign": 15.131222
+      }
+    }
+  }
+}

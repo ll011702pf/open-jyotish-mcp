@@ -1,0 +1,156 @@
+{
+  "sample_id": "berlin_true_revati",
+  "source": "JHora",
+  "source_version": "",
+  "notes": "Auto-filled from local jhora python package. Review before treating as canonical.",
+  "verification": {
+    "mode": "automated",
+    "reason": null
+  },
+  "birth_data": {
+    "title": "Berlin True Revati Baseline",
+    "subject_name": "Sample J",
+    "birth_date": "1991-10-08",
+    "birth_time": "19:35:00",
+    "timezone": "Europe/Berlin",
+    "dst_mode": "auto",
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "country": "Germany",
+    "city": "Berlin",
+    "note": null
+  },
+  "profile": {
+    "ayanamsha_id": "true_revati",
+    "custom_ayanamsha_t0_jd": null,
+    "custom_ayanamsha_value": null,
+    "custom_ayanamsha_is_ut": false,
+    "house_system": "whole_sign",
+    "node_mode": "mean",
+    "enabled_vargas": [
+      "D1",
+      "D2",
+      "D9",
+      "D10",
+      "D12",
+      "D16"
+    ]
+  },
+  "tolerances": {
+    "ayanamsha_value": 0.0005,
+    "lagna_longitude": 0.01,
+    "degree_in_sign": 0.02,
+    "varga_lagna_longitude": 0.1,
+    "varga_moon_degree_in_sign": 0.1
+  },
+  "expected": {
+    "ayanamsha_value": 19.934653,
+    "lagna_longitude": 52.974422,
+    "planet_positions": {
+      "Sun": {
+        "sign": "Virgo",
+        "degree_in_sign": 25.054476,
+        "nakshatra": "Chitra",
+        "pada": 1,
+        "house": 5,
+        "dignity": null
+      },
+      "Moon": {
+        "sign": "Libra",
+        "degree_in_sign": 5.95666,
+        "nakshatra": "Chitra",
+        "pada": 4,
+        "house": 6,
+        "dignity": null
+      },
+      "Mars": {
+        "sign": "Libra",
+        "degree_in_sign": 4.680084,
+        "nakshatra": "Chitra",
+        "pada": 4,
+        "house": 6,
+        "dignity": null
+      },
+      "Mercury": {
+        "sign": "Virgo",
+        "degree_in_sign": 28.83255,
+        "nakshatra": "Chitra",
+        "pada": 2,
+        "house": 5,
+        "dignity": null
+      },
+      "Jupiter": {
+        "sign": "Leo",
+        "degree_in_sign": 15.457301,
+        "nakshatra": "Purva Phalguni",
+        "pada": 1,
+        "house": 4,
+        "dignity": null
+      },
+      "Venus": {
+        "sign": "Leo",
+        "degree_in_sign": 11.388076,
+        "nakshatra": "Magha",
+        "pada": 4,
+        "house": 4,
+        "dignity": null
+      },
+      "Saturn": {
+        "sign": "Capricorn",
+        "degree_in_sign": 10.271228,
+        "nakshatra": "Shravana",
+        "pada": 1,
+        "house": 9,
+        "dignity": null
+      },
+      "Rahu": {
+        "sign": "Sagittarius",
+        "degree_in_sign": 24.333019,
+        "nakshatra": "Purva Ashadha",
+        "pada": 4,
+        "house": 8,
+        "dignity": null
+      },
+      "Ketu": {
+        "sign": "Gemini",
+        "degree_in_sign": 24.333019,
+        "nakshatra": "Punarvasu",
+        "pada": 2,
+        "house": 2,
+        "dignity": null
+      }
+    },
+    "vargas": {
+      "D1": {
+        "lagna_longitude": 52.974422,
+        "moon_sign": "Libra",
+        "moon_degree_in_sign": 5.95666
+      },
+      "D2": {
+        "lagna_longitude": 135.948844,
+        "moon_sign": "Leo",
+        "moon_degree_in_sign": 11.913319
+      },
+      "D9": {
+        "lagna_longitude": 116.769798,
+        "moon_sign": "Scorpio",
+        "moon_degree_in_sign": 23.609937
+      },
+      "D10": {
+        "lagna_longitude": 139.74422,
+        "moon_sign": "Scorpio",
+        "moon_degree_in_sign": 29.566596
+      },
+      "D12": {
+        "lagna_longitude": 305.693064,
+        "moon_sign": "Sagittarius",
+        "moon_degree_in_sign": 11.479915
+      },
+      "D16": {
+        "lagna_longitude": 127.590753,
+        "moon_sign": "Cancer",
+        "moon_degree_in_sign": 5.306554
+      }
+    }
+  }
+}

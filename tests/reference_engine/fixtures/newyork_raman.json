@@ -1,0 +1,158 @@
+{
+  "sample_id": "newyork_raman",
+  "source": "JHora",
+  "source_version": "",
+  "notes": "Auto-filled from local jhora python package. Review before treating as canonical.",
+  "birth_data": {
+    "title": "New York Baseline",
+    "subject_name": "Sample B",
+    "birth_date": "1984-06-15",
+    "birth_time": "08:30:00",
+    "timezone": "America/New_York",
+    "dst_mode": "auto",
+    "latitude": 40.7128,
+    "longitude": -74.006,
+    "country": "United States",
+    "city": "New York",
+    "note": null
+  },
+  "profile": {
+    "ayanamsha_id": "raman",
+    "custom_ayanamsha_t0_jd": null,
+    "custom_ayanamsha_value": null,
+    "custom_ayanamsha_is_ut": false,
+    "house_system": "whole_sign",
+    "node_mode": "mean",
+    "enabled_vargas": [
+      "D1",
+      "D2",
+      "D3",
+      "D7",
+      "D9",
+      "D10",
+      "D12"
+    ]
+  },
+  "tolerances": {
+    "ayanamsha_value": 0.0005,
+    "lagna_longitude": 0.01,
+    "degree_in_sign": 0.02,
+    "varga_lagna_longitude": 0.02,
+    "varga_moon_degree_in_sign": 0.02
+  },
+  "expected": {
+    "ayanamsha_value": 22.193639,
+    "lagna_longitude": 100.735707,
+    "planet_positions": {
+      "Sun": {
+        "sign": "Gemini",
+        "degree_in_sign": 2.387247,
+        "nakshatra": "Mrigashirsha",
+        "pada": 3,
+        "house": 12,
+        "dignity": null
+      },
+      "Moon": {
+        "sign": "Sagittarius",
+        "degree_in_sign": 25.548018,
+        "nakshatra": "Purva Ashadha",
+        "pada": 4,
+        "house": 6,
+        "dignity": null
+      },
+      "Mars": {
+        "sign": "Libra",
+        "degree_in_sign": 19.63128,
+        "nakshatra": "Swati",
+        "pada": 4,
+        "house": 4,
+        "dignity": null
+      },
+      "Mercury": {
+        "sign": "Taurus",
+        "degree_in_sign": 23.232529,
+        "nakshatra": "Rohini",
+        "pada": 4,
+        "house": 11,
+        "dignity": null
+      },
+      "Jupiter": {
+        "sign": "Sagittarius",
+        "degree_in_sign": 17.652134,
+        "nakshatra": "Purva Ashadha",
+        "pada": 2,
+        "house": 6,
+        "dignity": null
+      },
+      "Venus": {
+        "sign": "Gemini",
+        "degree_in_sign": 2.279522,
+        "nakshatra": "Mrigashirsha",
+        "pada": 3,
+        "house": 12,
+        "dignity": null
+      },
+      "Saturn": {
+        "sign": "Libra",
+        "degree_in_sign": 18.120448,
+        "nakshatra": "Swati",
+        "pada": 4,
+        "house": 4,
+        "dignity": null
+      },
+      "Rahu": {
+        "sign": "Taurus",
+        "degree_in_sign": 13.521308,
+        "nakshatra": "Rohini",
+        "pada": 2,
+        "house": 11,
+        "dignity": null
+      },
+      "Ketu": {
+        "sign": "Scorpio",
+        "degree_in_sign": 13.521308,
+        "nakshatra": "Anuradha",
+        "pada": 4,
+        "house": 5,
+        "dignity": null
+      }
+    },
+    "vargas": {
+      "D1": {
+        "lagna_longitude": 100.735707,
+        "moon_sign": "Sagittarius",
+        "moon_degree_in_sign": 25.548018
+      },
+      "D2": {
+        "lagna_longitude": 111.471415,
+        "moon_sign": "Cancer",
+        "moon_degree_in_sign": 21.096036
+      },
+      "D3": {
+        "lagna_longitude": 212.207122,
+        "moon_sign": "Leo",
+        "moon_degree_in_sign": 16.644053
+      },
+      "D7": {
+        "lagna_longitude": 345.149951,
+        "moon_sign": "Taurus",
+        "moon_degree_in_sign": 28.836125
+      },
+      "D9": {
+        "lagna_longitude": 186.621366,
+        "moon_sign": "Scorpio",
+        "moon_degree_in_sign": 19.93216
+      },
+      "D10": {
+        "lagna_longitude": 77.357073,
+        "moon_sign": "Leo",
+        "moon_degree_in_sign": 15.480178
+      },
+      "D12": {
+        "lagna_longitude": 218.828487,
+        "moon_sign": "Libra",
+        "moon_degree_in_sign": 6.576214
+      }
+    }
+  }
+}

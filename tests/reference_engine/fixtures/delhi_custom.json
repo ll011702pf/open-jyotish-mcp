@@ -1,0 +1,144 @@
+{
+  "sample_id": "delhi_custom",
+  "source": "JHora",
+  "source_version": "",
+  "notes": "Manual external verification required. Use exactly the same custom ayanamsha parameters and fill expected values after human review.",
+  "verification": {
+    "mode": "manual_template",
+    "reason": "custom ayanamsha requires manual external verification"
+  },
+  "birth_data": {
+    "title": "Delhi Custom Baseline",
+    "subject_name": "Sample C",
+    "birth_date": "2001-09-09",
+    "birth_time": "21:45:00",
+    "timezone": "Asia/Kolkata",
+    "dst_mode": "auto",
+    "latitude": 28.6139,
+    "longitude": 77.209,
+    "country": "India",
+    "city": "Delhi",
+    "note": null
+  },
+  "profile": {
+    "ayanamsha_id": "custom",
+    "custom_ayanamsha_t0_jd": 2451545.0,
+    "custom_ayanamsha_value": 24.0,
+    "custom_ayanamsha_is_ut": true,
+    "house_system": "whole_sign",
+    "node_mode": "true",
+    "enabled_vargas": [
+      "D1",
+      "D16",
+      "D20",
+      "D24"
+    ]
+  },
+  "tolerances": {
+    "ayanamsha_value": 0.0005,
+    "lagna_longitude": 0.01,
+    "degree_in_sign": 0.01,
+    "varga_lagna_longitude": 0.02,
+    "varga_moon_degree_in_sign": 0.02
+  },
+  "expected": {
+    "ayanamsha_value": null,
+    "lagna_longitude": null,
+    "planet_positions": {
+      "Sun": {
+        "sign": null,
+        "degree_in_sign": null,
+        "nakshatra": null,
+        "pada": null,
+        "house": null,
+        "dignity": null
+      },
+      "Moon": {
+        "sign": null,
+        "degree_in_sign": null,
+        "nakshatra": null,
+        "pada": null,
+        "house": null,
+        "dignity": null
+      },
+      "Mars": {
+        "sign": null,
+        "degree_in_sign": null,
+        "nakshatra": null,
+        "pada": null,
+        "house": null,
+        "dignity": null
+      },
+      "Mercury": {
+        "sign": null,
+        "degree_in_sign": null,
+        "nakshatra": null,
+        "pada": null,
+        "house": null,
+        "dignity": null
+      },
+      "Jupiter": {
+        "sign": null,
+        "degree_in_sign": null,
+        "nakshatra": null,
+        "pada": null,
+        "house": null,
+        "dignity": null
+      },
+      "Venus": {
+        "sign": null,
+        "degree_in_sign": null,
+        "nakshatra": null,
+        "pada": null,
+        "house": null,
+        "dignity": null
+      },
+      "Saturn": {
+        "sign": null,
+        "degree_in_sign": null,
+        "nakshatra": null,
+        "pada": null,
+        "house": null,
+        "dignity": null
+      },
+      "Rahu": {
+        "sign": null,
+        "degree_in_sign": null,
+        "nakshatra": null,
+        "pada": null,
+        "house": null,
+        "dignity": null
+      },
+      "Ketu": {
+        "sign": null,
+        "degree_in_sign": null,
+        "nakshatra": null,
+        "pada": null,
+        "house": null,
+        "dignity": null
+      }
+    },
+    "vargas": {
+      "D1": {
+        "lagna_longitude": null,
+        "moon_sign": null,
+        "moon_degree_in_sign": null
+      },
+      "D16": {
+        "lagna_longitude": null,
+        "moon_sign": null,
+        "moon_degree_in_sign": null
+      },
+      "D20": {
+        "lagna_longitude": null,
+        "moon_sign": null,
+        "moon_degree_in_sign": null
+      },
+      "D24": {
+        "lagna_longitude": null,
+        "moon_sign": null,
+        "moon_degree_in_sign": null
+      }
+    }
+  }
+}

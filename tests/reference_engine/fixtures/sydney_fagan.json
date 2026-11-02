@@ -1,0 +1,150 @@
+{
+  "sample_id": "sydney_fagan",
+  "source": "JHora",
+  "source_version": "",
+  "notes": "Auto-filled from local jhora python package. Review before treating as canonical.",
+  "verification": {
+    "mode": "automated",
+    "reason": null
+  },
+  "birth_data": {
+    "title": "Sydney Fagan Baseline",
+    "subject_name": "Sample F",
+    "birth_date": "1992-08-19",
+    "birth_time": "04:40:00",
+    "timezone": "Australia/Sydney",
+    "dst_mode": "auto",
+    "latitude": -33.8688,
+    "longitude": 151.2093,
+    "country": "Australia",
+    "city": "Sydney",
+    "note": null
+  },
+  "profile": {
+    "ayanamsha_id": "fagan_bradley",
+    "custom_ayanamsha_t0_jd": null,
+    "custom_ayanamsha_value": null,
+    "custom_ayanamsha_is_ut": false,
+    "house_system": "whole_sign",
+    "node_mode": "true",
+    "enabled_vargas": [
+      "D1",
+      "D2",
+      "D9",
+      "D10",
+      "D12"
+    ]
+  },
+  "tolerances": {
+    "ayanamsha_value": 0.0005,
+    "lagna_longitude": 0.01,
+    "degree_in_sign": 0.02,
+    "varga_lagna_longitude": 0.02,
+    "varga_moon_degree_in_sign": 0.02
+  },
+  "expected": {
+    "ayanamsha_value": 24.637373,
+    "lagna_longitude": 86.686899,
+    "planet_positions": {
+      "Sun": {
+        "sign": "Leo",
+        "degree_in_sign": 1.410887,
+        "nakshatra": "Magha",
+        "pada": 1,
+        "house": 3,
+        "dignity": null
+      },
+      "Moon": {
+        "sign": "Aries",
+        "degree_in_sign": 0.456611,
+        "nakshatra": "Ashwini",
+        "pada": 1,
+        "house": 11,
+        "dignity": null
+      },
+      "Mars": {
+        "sign": "Taurus",
+        "degree_in_sign": 20.535842,
+        "nakshatra": "Rohini",
+        "pada": 4,
+        "house": 12,
+        "dignity": null
+      },
+      "Mercury": {
+        "sign": "Cancer",
+        "degree_in_sign": 13.25507,
+        "nakshatra": "Pushya",
+        "pada": 3,
+        "house": 2,
+        "dignity": null
+      },
+      "Jupiter": {
+        "sign": "Leo",
+        "degree_in_sign": 24.071375,
+        "nakshatra": "Purva Phalguni",
+        "pada": 4,
+        "house": 3,
+        "dignity": null
+      },
+      "Venus": {
+        "sign": "Leo",
+        "degree_in_sign": 19.522528,
+        "nakshatra": "Purva Phalguni",
+        "pada": 2,
+        "house": 3,
+        "dignity": null
+      },
+      "Saturn": {
+        "sign": "Capricorn",
+        "degree_in_sign": 19.649205,
+        "nakshatra": "Shravana",
+        "pada": 3,
+        "house": 8,
+        "dignity": null
+      },
+      "Rahu": {
+        "sign": "Sagittarius",
+        "degree_in_sign": 4.153869,
+        "nakshatra": "Mula",
+        "pada": 2,
+        "house": 7,
+        "dignity": null
+      },
+      "Ketu": {
+        "sign": "Gemini",
+        "degree_in_sign": 4.153869,
+        "nakshatra": "Mrigashirsha",
+        "pada": 4,
+        "house": 1,
+        "dignity": null
+      }
+    },
+    "vargas": {
+      "D1": {
+        "lagna_longitude": 86.686899,
+        "moon_sign": "Aries",
+        "moon_degree_in_sign": 0.456611
+      },
+      "D2": {
+        "lagna_longitude": 113.373797,
+        "moon_sign": "Leo",
+        "moon_degree_in_sign": 0.913223
+      },
+      "D9": {
+        "lagna_longitude": 60.182089,
+        "moon_sign": "Aries",
+        "moon_degree_in_sign": 4.109501
+      },
+      "D10": {
+        "lagna_longitude": 326.868987,
+        "moon_sign": "Aries",
+        "moon_degree_in_sign": 4.566113
+      },
+      "D12": {
+        "lagna_longitude": 20.242785,
+        "moon_sign": "Aries",
+        "moon_degree_in_sign": 5.479335
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "sample_id": "tokyo_krishnamurti",
+  "source": "JHora",
+  "source_version": "",
+  "notes": "Auto-filled from local jhora python package. Review before treating as canonical.",
+  "verification": {
+    "mode": "automated",
+    "reason": null
+  },
+  "birth_data": {
+    "title": "Tokyo Krishnamurti Baseline",
+    "subject_name": "Sample D",
+    "birth_date": "1995-11-23",
+    "birth_time": "06:15:00",
+    "timezone": "Asia/Tokyo",
+    "dst_mode": "auto",
+    "latitude": 35.6762,
+    "longitude": 139.6503,
+    "country": "Japan",
+    "city": "Tokyo",
+    "note": null
+  },
+  "profile": {
+    "ayanamsha_id": "krishnamurti",
+    "custom_ayanamsha_t0_jd": null,
+    "custom_ayanamsha_value": null,
+    "custom_ayanamsha_is_ut": false,
+    "house_system": "whole_sign",
+    "node_mode": "true",
+    "enabled_vargas": [
+      "D1",
+      "D9",
+      "D10",
+      "D12"
+    ]
+  },
+  "tolerances": {
+    "ayanamsha_value": 0.0005,
+    "lagna_longitude": 0.01,
+    "degree_in_sign": 0.02,
+    "varga_lagna_longitude": 0.02,
+    "varga_moon_degree_in_sign": 0.02
+  },
+  "expected": {
+    "ayanamsha_value": 23.702864,
+    "lagna_longitude": 213.589513,
+    "planet_positions": {
+      "Sun": {
+        "sign": "Scorpio",
+        "degree_in_sign": 6.395104,
+        "nakshatra": "Anuradha",
+        "pada": 1,
+        "house": 1,
+        "dignity": null
+      },
+      "Moon": {
+        "sign": "Scorpio",
+        "degree_in_sign": 9.604758,
+        "nakshatra": "Anuradha",
+        "pada": 2,
+        "house": 1,
+        "dignity": null
+      },
+      "Mars": {
+        "sign": "Sagittarius",
+        "degree_in_sign": 0.504353,
+        "nakshatra": "Mula",
+        "pada": 1,
+        "house": 2,
+        "dignity": null
+      },
+      "Mercury": {
+        "sign": "Scorpio",
+        "degree_in_sign": 6.2085,
+        "nakshatra": "Anuradha",
+        "pada": 1,
+        "house": 1,
+        "dignity": null
+      },
+      "Jupiter": {
+        "sign": "Scorpio",
+        "degree_in_sign": 26.939609,
+        "nakshatra": "Jyeshtha",
+        "pada": 4,
+        "house": 1,
+        "dignity": null
+      },
+      "Venus": {
+        "sign": "Sagittarius",
+        "degree_in_sign": 0.500307,
+        "nakshatra": "Mula",
+        "pada": 1,
+        "house": 2,
+        "dignity": null
+      },
+      "Saturn": {
+        "sign": "Aquarius",
+        "degree_in_sign": 24.291882,
+        "nakshatra": "Purva Bhadrapada",
+        "pada": 2,
+        "house": 4,
+        "dignity": null
+      },
+      "Rahu": {
+        "sign": "Libra",
+        "degree_in_sign": 2.471492,
+        "nakshatra": "Chitra",
+        "pada": 3,
+        "house": 12,
+        "dignity": null
+      },
+      "Ketu": {
+        "sign": "Aries",
+        "degree_in_sign": 2.471492,
+        "nakshatra": "Ashwini",
+        "pada": 1,
+        "house": 6,
+        "dignity": null
+      }
+    },
+    "vargas": {
+      "D1": {
+        "lagna_longitude": 213.589513,
+        "moon_sign": "Scorpio",
+        "moon_degree_in_sign": 9.604758
+      },
+      "D9": {
+        "lagna_longitude": 122.305616,
+        "moon_sign": "Virgo",
+        "moon_degree_in_sign": 26.442824
+      },
+      "D10": {
+        "lagna_longitude": 125.895129,
+        "moon_sign": "Libra",
+        "moon_degree_in_sign": 6.047582
+      },
+      "D12": {
+        "lagna_longitude": 253.074155,
+        "moon_sign": "Aquarius",
+        "moon_degree_in_sign": 25.257099
+      }
+    }
+  }
+}

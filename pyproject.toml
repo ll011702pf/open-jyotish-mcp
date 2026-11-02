@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-jyotish-mcp"
+version = "0.1.0"
+description = "MCP server for Vedic astrology charting, backed by the OpenJyotish engine (Swiss Ephemeris)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "AGPL-3.0-or-later" }
+authors = [{ name = "waka" }]
+keywords = ["mcp", "vedic-astrology", "jyotish", "swiss-ephemeris", "astrology"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU Affero General Public License v3",
+  "Topic :: Religion",
+]
+dependencies = [
+  "mcp>=2.0,<3",
+  "pydantic>=2.10,<3",
+  "pyswisseph>=2.10.3.2,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.24"]
+
+[project.scripts]
+open-jyotish-mcp = "open_jyotish_mcp.server:main"
+
+[project.urls]
+Homepage = "https://github.com/waka/open-jyotish-mcp"
+Source = "https://github.com/waka/open-jyotish-mcp"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+open_jyotish = [
+  "infrastructure/geo/data/*.json.gz",
+]
+open_jyotish_mcp = [
+  "ephemeris/*.se1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

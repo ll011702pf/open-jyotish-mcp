@@ -1,0 +1,156 @@
+{
+  "sample_id": "mumbai_aryabhata",
+  "source": "JHora",
+  "source_version": "",
+  "notes": "Auto-filled from local jhora python package. Review before treating as canonical.",
+  "verification": {
+    "mode": "automated",
+    "reason": null
+  },
+  "birth_data": {
+    "title": "Mumbai Aryabhata Baseline",
+    "subject_name": "Sample I",
+    "birth_date": "1982-01-27",
+    "birth_time": "14:50:00",
+    "timezone": "Asia/Kolkata",
+    "dst_mode": "auto",
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "country": "India",
+    "city": "Mumbai",
+    "note": null
+  },
+  "profile": {
+    "ayanamsha_id": "aryabhata",
+    "custom_ayanamsha_t0_jd": null,
+    "custom_ayanamsha_value": null,
+    "custom_ayanamsha_is_ut": false,
+    "house_system": "whole_sign",
+    "node_mode": "mean",
+    "enabled_vargas": [
+      "D1",
+      "D3",
+      "D7",
+      "D9",
+      "D10",
+      "D24"
+    ]
+  },
+  "tolerances": {
+    "ayanamsha_value": 0.0005,
+    "lagna_longitude": 0.01,
+    "degree_in_sign": 0.01,
+    "varga_lagna_longitude": 0.02,
+    "varga_moon_degree_in_sign": 0.02
+  },
+  "expected": {
+    "ayanamsha_value": 20.644649,
+    "lagna_longitude": 57.980413,
+    "planet_positions": {
+      "Sun": {
+        "sign": "Capricorn",
+        "degree_in_sign": 16.479022,
+        "nakshatra": "Shravana",
+        "pada": 2,
+        "house": 9,
+        "dignity": null
+      },
+      "Moon": {
+        "sign": "Aquarius",
+        "degree_in_sign": 11.769703,
+        "nakshatra": "Shatabhisha",
+        "pada": 2,
+        "house": 10,
+        "dignity": null
+      },
+      "Mars": {
+        "sign": "Virgo",
+        "degree_in_sign": 25.291248,
+        "nakshatra": "Chitra",
+        "pada": 1,
+        "house": 5,
+        "dignity": null
+      },
+      "Mercury": {
+        "sign": "Capricorn",
+        "degree_in_sign": 26.376474,
+        "nakshatra": "Dhanishta",
+        "pada": 1,
+        "house": 9,
+        "dignity": null
+      },
+      "Jupiter": {
+        "sign": "Libra",
+        "degree_in_sign": 18.500728,
+        "nakshatra": "Swati",
+        "pada": 4,
+        "house": 6,
+        "dignity": null
+      },
+      "Venus": {
+        "sign": "Capricorn",
+        "degree_in_sign": 6.890075,
+        "nakshatra": "Uttara Ashadha",
+        "pada": 4,
+        "house": 9,
+        "dignity": null
+      },
+      "Saturn": {
+        "sign": "Libra",
+        "degree_in_sign": 1.594659,
+        "nakshatra": "Chitra",
+        "pada": 3,
+        "house": 6,
+        "dignity": null
+      },
+      "Rahu": {
+        "sign": "Cancer",
+        "degree_in_sign": 1.147096,
+        "nakshatra": "Punarvasu",
+        "pada": 4,
+        "house": 3,
+        "dignity": null
+      },
+      "Ketu": {
+        "sign": "Capricorn",
+        "degree_in_sign": 1.147096,
+        "nakshatra": "Uttara Ashadha",
+        "pada": 2,
+        "house": 9,
+        "dignity": null
+      }
+    },
+    "vargas": {
+      "D1": {
+        "lagna_longitude": 57.980413,
+        "moon_sign": "Aquarius",
+        "moon_degree_in_sign": 11.769703
+      },
+      "D3": {
+        "lagna_longitude": 293.94124,
+        "moon_sign": "Gemini",
+        "moon_degree_in_sign": 5.309109
+      },
+      "D7": {
+        "lagna_longitude": 45.862894,
+        "moon_sign": "Aries",
+        "moon_degree_in_sign": 22.38792
+      },
+      "D9": {
+        "lagna_longitude": 161.823721,
+        "moon_sign": "Capricorn",
+        "moon_degree_in_sign": 15.927326
+      },
+      "D10": {
+        "lagna_longitude": 189.804135,
+        "moon_sign": "Taurus",
+        "moon_degree_in_sign": 27.697029
+      },
+      "D24": {
+        "lagna_longitude": 41.529924,
+        "moon_sign": "Taurus",
+        "moon_degree_in_sign": 12.472869
+      }
+    }
+  }
+}
